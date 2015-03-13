@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<!--  this refers to html coding -->
+<!-- Using Abstract thinking to generate my coding/ HTML, I can implement general repetitious items and grouped them so that I do not repeat my codings.  This is also called abstractions.  An example on this HTML is the use of my notestyle.css.  Instead of entering borders, colors and shapes on every command, I can simply call a class to perfom these repetitous but general instructions to make the colors, borders and shapes.-->
+<html lang ='en'>
+
+<!-- this is the start of my header -->
+<head>
+    <!-- title on the browser tab -->
+    <title> Samuel Ramli Project Stage 3</title>
+    <!-- this is the link to my CSS stylesheet.  The notestyle.css contains classes and functions that has built-in keywords in Python programming. Te functions in the notestyle.css provide the style sheet when shown in the webbrowser. This is another advantage to using Object Oreinted Programming-->
+    <link rel="stylesheet" href="notestyle.css">
+</head>
+<!--  this is the start of my body -->
+<body>   
+    <!-- this is executing the class name border which is called from the notestyle.css. -->
+	<div class="border">
+    <div class="lesson_title">
+        <h2>Adding Videos to my notes</h2>
+    </div>
+    </div>
+	<!-- This import module will execute a module named next to it.  In this case below it is calling the modules
+	fresh_tomatoes and media.  fresh_tomatoes modules is a module to find lists of movies and excute websites that shows the videos from list.  Media module provides framework for managing multimedia files-->
+		<div class="border1">
+	    <div class="subject">
+    	<div class="description_header">
+        	<h3>Import Modules</h3>
+     	</div>
+        	<div class="description_style">
+        	<div class="description">
+					import fresh_tomatoes
+					import media
+			</div>
+            </div>
+        </div>
+        </div>
+
+        <div class="border1">
+        <div class="subject">
+        <div class="description_header">
+            <h3>Vocabulary</h3>
+        </div>
+            <div class="description_style">
+            <div class="description">
+            	<!-- THe list below consists of 4 variables, Title of the movie, short description of the movie, picture of the movie, URL to locate the movie in youtube -->
+					<p>vocabulary = media.Movie</p>
+                    <p> ("Vocabulary: Class, Constructor, self, Instances: Variables, Methods", 
+					  "Recap on vocabulary: Class, Constructor, self, Instances: Variables, Methods.  The class Keyword allows us to make classes. You can think of a class as a blueprint. And a class can have both data and methods. We can create multiple instances of a class. In this example we created instances like Toy Story and Avatar. We could have created many more. When we create an instance of a class, instance like Toy Story, the classes constructor gets called. This is essentially the init method inside the class. It is here that we initialize all of the data associated with the instance. The constructor uses the keyword, self. Now, you can think of self as itself or the instance in question. So, when the instance Toy Story is getting created, self is Toy Story. All the variables associated with a specific instance are called instance variables.These are unique to an object and can be accessed using the self keyword inside the class and the instance name outside the class. All of the functions inside the class that are associated with an instance and have the first argument as self are called instance methods. So there you have it. All of the new words that we have learned thus far, right there on one screen.",</p>
+                    <p> "Class Constructotr Self Instances variable method.png",</p>
+                     <p>"https://www.youtube.com/watch?v=11G5sBkY9tQ")</p>
+			</div>
+            </div>
+        </div>
+        </div>
+
+
+        <div class="border1">
+        <div class="subject">
+        <div class="description_header">
+            <h3>Class Variables</h3>
+        </div>
+            <div class="description_style">
+            <div class="description">
+            	<!-- THe list below consists of 4 variables, Title of the movie, short description of the movie, picture of the movie, URL to locate the movie in youtube -->
+				<p>class_variables = media.Movie </p>
+                <p>("Class Variables: Variables that can be shared, example the variable valid ratings for a movie", "Instance variables. In the case of Class Movie, there were several of them, title, storyline, poster image URL, and trailer YouTube URL. These variables are associated with every instance that we create. Variables that can be shared, example the variable valid ratings for a movie. This is an array or a list, of all possible ratings a movie could have. Now, it would not quite make sense to say, hey, here are Toy Story's valid ratings, and here are Avatar's valid ratings. They would essentially be the same for all instances. Thus, this variable is really associated with a Class Movie. And is therefore called a Class Variable. Note that this variable valid ratings is defined at the level of the class and is outside the init function. Note the class name movie to access this variable. This means that all instances of this class movie. Toy Story, Avatar and others, they can share this list, they can share this list to see if their individual rating is a valid one or not. ",</p>
+              <p>"Screen Shot 2015-03-09 at 3.01.14 PM.png",</p>
+              <p>"https://www.youtube.com/watch?v=_Cyq3ypyHkk&amp;t=12")</P>
+			</div>
+            </div>
+        </div>
+        </div>
+
+
+        <div class="border1">
+        <div class="subject">
+        <div class="description_header">
+            <h3>Inheritance</h3>
+        </div>
+            <div class="description_style">
+            <div class="description">
+            	<!-- THe list below consists of 4 variables, Title of the movie, short description of the movie, picture of the movie, URL to locate the movie in youtube -->
+            	<p>inheritance = media.Movie</p>
+                <p> ("Inheritance, Parent, Child : Inheritance. Now, let's think about the meaning of this word inheritance and how we use it in the English language.You may have heard someone say that a child can inherit some traits from their parents. Things like the last name, the eye color, some money. So, if we were to take this meaning of inheritance, like we commonly use it in the English language, and turn it into code or model this in terms of programming, we would create a class called Parent. Which would have some attributes like last name and eye color. And then we would make a class called class Child that would inherit these two things from the class Parent. Additionally, the class Child could have another variable of its own called number of toys. Now, you may notice that if we design code like this, we are already beginning to reuse code, which is a huge advantage of object oriented programming.",</p>
+                <p>"Screen Shot 2015-03-09 at 5.02.31 PM.png",</p>
+                <p>"https://www.youtube.com/watch?v=nVuuDbWORKk")</p>
+			</div>
+            </div>
+        </div>
+        </div>
+
+
+		<div class="border1">
+	    <div class="subject">
+    	<div class="description_header">
+        	<h3>Arrays</h3>
+     	</div>
+        	<div class="description_style">
+        	<div class="description">
+				<!-- below is list of arrays that consists of the videos above -->
+				movies = (vocabulary,class_variables,inheritance)
+			</div>
+            </div>
+        </div>
+        </div>
+
+
+		<div class="border1">
+	    <div class="subject">
+    	<div class="description_header">
+        	<h3>How to execute the fresh tomatoes Object oriented program</h3>
+     	</div>
+        	<div class="description_style">
+        	<div class="description">
+				<!-- Below is to execute the fresh_tomatoes modules -->
+				fresh_tomatoes.open_movies_page(movies)
+			</div>
+            </div>
+        </div>
+        </div>
+    <p>
+    </p>
+    <div class="border">
+    <div class="lesson_title">
+
+        <h2>Object Oriented Programming</h2>
+    </div>
+    </div>
+
+        <div class="subject">
+        <div class="border1">
+        <div class="description_header">
+            <h3>Example of Object Oriented Programing </h3>
+        </div>
+            <div class="description_style">
+            <div class="description">
+            <pre>
+                One of the biggest advantage of using Object oriented Programming with Python is the ability to reuse codes. It also allows us to follow intuitive method of prgramming in our brain.  We will be able to map the logic of how the programming code should be written in our brain.
+                Python also contains standard library.  The Standard Library is an extensive wide range of built-in modules (which some are written in C) that provides accesses to system functionality.  It accesses functions such as file I/O that would be inaccessible to python programmers and python modules written in Python.
+                The Library also contains built-in functions and exceptions - objects that can be used without the need to use "import" statement.
+                The use of the library is to find modules that would allow programmers to use its list of modules to save time in their programming.  Instead of re-creating a code to perform a sepcific task/ funtion or module the built in module can be used to eliminate these steps.
+                <!-- webborwser is a module that provides interface to allow web based documents to be displayed to users. We use this module which came from the Python Libraries, to open web browser when requested -->
+                import webbrowser
+                <!-- The class Keyword allows us to make classes. A class is like a blueprint. And a class can have both data and methods. Class can have multiple instances of a class-->
+                class Movie():
+                    """This class provides a way to store movie related information"""
+                    
+                    VALID_RATINGS = ["G","PG","PG-13","R"]
+                    <!--below is an example of class data-->
+                    <!--def __init__ is an example of a constructor. __init__ will initialized data in these instances--> 
+                    <!-- the constructor __init__ uses the keyword self = instance in question.  Example below  self = toy_story, or avatar, etc-->
+                    def __init__(self, movie_title, movie_storyline, poster_image, trailer_youtube):
+                        <!-- below is example of instance variables. Excample, when self toy_story created then toy_story.title = "instance evarible" will contain movie_title toy_story-->
+                        self.title = movie_title
+                        self.storyline = movie_storyline
+                        self.poster_image_url = poster_image
+                        self.trailer_youtube_url = trailer_youtube
+                    <!--below is an example of class method-->
+
+                    def show_trailer(self):
+                        <!-- below is an example of instance method = functions inside the class that are associated with an instance and have the first argument as self-->
+                        <!-- the webbrowser module which came from python libraries is executed to open browser to show the youtube videos contained in the lists -->
+                        webbrowser.open(self.trailer_youtube_url)
+
+
+                import fresh_tomatoes
+                import media
+                <!--below are examples of multiple instances "toy_story, avatar, how_to_train_your_dragon"-->
+                toy_story = media.Movie ("Toy Story",
+                                         "A story of a boy and his toys that come to life",
+                                         "http://upload.wikimedia.org/wikipedia/en/1/13/Toy_Story.jpg",
+                                         "https://www.youtube.com/watch?v=KYz2wyBy3kc")
+
+
+                avatar = media.Movie ("Avatar",
+                                      "A marine on an alien planet",
+                                      "http://upload.wikimedia.org/wikipedia/en/b/b0/Avatar-Teaser-Poster.jpg",
+                                      "https://www.youtube.com/watch?v=5PSNL1qE6VY")
+                <!--this is an example of instance name being used outside the class-->
+                #print (avatar.storyline)
+                #avatar.show_trailer()
+
+                                      
+                how_to_train_your_dragon = media.Movie ("How to train your dragon",
+                                                        "A boy who was able to tame and train a dragon and win the village's trust",
+                                                        "http://upload.wikimedia.org/wikipedia/en/7/77/How_to_Train_Your_Dragon_%282003_book_cover%29.jpg",
+                                                        "https://www.youtube.com/watch?v=88x08ePynt0")
+                how_to_train_your_dragon.show_trailer()
+
+                movies = (toy_story,avatar,how_to_train_your_dragon)
+                fresh_tomatoes.open_movies_page(movies)
+                #print (media.Movie.VALID_RATINGS)
+                print (media.Movie.__doc__)
+                print (media.Movie.__name__)
+                print (media.Movie.__module__)
+            </pre>
+            </div>
+            </div>
+        </div>
+        </div>
+
+    <p>
+    </p>
+    <div class="border">
+    <div class="lesson_title">
+
+        <h2>Inheritance and Method Overriding</h2>
+    </div>
+    </div>
+
+        <div class="subject">
+        <div class="border1">
+        <div class="description_header">
+            <h3>Example of Inheritance and Method Overriding</h3>
+        </div>
+            <div class="description_style">
+            <div class="description">
+            <pre>
+                class Parent():
+                    def __init__(self, last_name, eye_color):
+                        print ("Parent Constructor called")
+                        self.last_name = last_name
+                        self.eye_color = eye_color
+
+                    def show_info(self):
+                        print("Last Name - "+self.last_name)
+                        print("Eye Color - "+self.eye_color)
+
+                <!-- example of class inheritance "class Child" = it will reuse code from the class parent -->
+                class Child(Parent):
+                    def __init__(self, last_name, eye_color, number_of_toys):
+                        print ("Child Constructor called")
+
+                        <!-- reusing the class parent -->
+                        Parent.__init__(self, last_name, eye_color)
+                        self.number_of_toys = number_of_toys
+                    <!--method overriding eliminating the show_info(self) function from parent and override with child show_info (self)  -->
+                    def show_info(self):
+                        print("Last Name - "+self.last_name)
+                        print("Eye Color - "+self.eye_color)
+                        <!-- "str" will denote to the print instruction that is is printing a string -->
+                        print("Number of Toys - "+str(self.number_of_toys))
+
+
+                billy_cyrus = Parent("Cyrus", "Blue")
+                print (billy_cyrus.last_name)
+
+                <!-- instance of class child that will execute __init__ from class child -->
+                miley_cyrus = Child("Cyrus", "Blue", 5)
+                print (miley_cyrus.last_name)
+                print (miley_cyrus.number_of_toys)
+                <!-- calling class show_info(self) from class parent But also as shown above if another class show_info(self) exists in the class child the class show_info(self) in the child level will overide the content of the parent's. -->
+                miley_cyrus.show_info()
+            </pre>
+            </div>
+            </div>
+        </div>
+        </div>
+
+</html>
+
